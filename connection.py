@@ -2,8 +2,7 @@ from peewee import *
 import json
 import datetime
 
-db = SqliteDatabase(r".git/test.db")
-#db = SqliteDatabase("test.db")
+db = SqliteDatabase("test.db")
 
 class BaseModel(Model):
     class Meta:
